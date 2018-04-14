@@ -1,13 +1,13 @@
 /* meyer CSS reset
 */
-html, body, div, span, applet, object, iframe,
+html, body, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -50,20 +50,31 @@ body{
   font-color: #fefefe
 }
 /* actually i need to make a container for textarea and the microphone and give the container all the border styles and let the textarea be invisible */
+#textbox{
+  border: 2px;
+  border-color: #f7f7f7;
+  border-radius: 2%;
+  border-style: ridge;
+  width: 428px;
+  height: 44px;
+  resize: none;
+  margin: 0;
+  padding: 0;
+}
+
 textarea{
   margin: 0;
   padding: 0;
-  border: 1px;
-  border-color: #fefefe;
-  border-radius: 1;
+  border: none;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  width: 428px;
-  height: 44px;
-  resize: none
+  width: 410px;
+  height: 42px;
+  resize: none;
+  float: left;
 }
-#formcontainer{
+.formcontainer{
   margin: auto;
   width: 50%;
   border: 1px solid green;
@@ -72,7 +83,14 @@ textarea{
 
 }
 #voice{
-
+width: 18px;
+height: 23px;
+margin-top: 10px;
+margin-left: 0;
+margin-bottom: 10px;
+margin-right: 0;
+padding: 0;
+float: right;
 }
 #search{
 
