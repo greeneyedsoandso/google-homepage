@@ -50,12 +50,14 @@ body{
   background-color: #ffffff;
 }
 .formcontainer{
-  margin: auto;
-  width: 50%;
+  margin: 0 auto;
   border: 1px solid green;
 }
 .google{
- width: inherit;
+ width: 272px;
+ height: 92px;
+ margin: 0 auto;
+ display: block;
 }
 .textarea{
   margin: 0;
@@ -66,18 +68,19 @@ body{
   height: 42px;
   resize: none;
   float: left;
+  display: inherit;
 }
 .textbox{
   border: 1px solid #bada55;
-/*  border-color: #f7f7f7; */
+  border-color: lightgray;
   border-radius: 3px;
-  box-shadow: 0px 2px 2px 0px #bada55;
+  box-shadow: 0px 2px 2px 0px lightgray;
 /* in order: x offset, y offset, blur size, spread size, color */
 /* blur size and spread size are optional (they default to 0) */
   width: 428px;
   height: 44px;
   resize: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
