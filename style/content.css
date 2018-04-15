@@ -54,10 +54,10 @@ body{
   width: 50%;
   border: 1px solid green;
 }
-#google{
+.google{
  width: inherit;
 }
-textarea{
+.textarea{
   margin: 0;
   padding: 0;
   border: none;
@@ -67,7 +67,7 @@ textarea{
   resize: none;
   float: left;
 }
-#textbox{
+.textbox{
   border: 1px solid #bada55;
 /*  border-color: #f7f7f7; */
   border-radius: 3px;
@@ -81,7 +81,7 @@ textarea{
   padding: 0;
 }
 
-#voice{
+.voice{
 width: 18px;
 height: 23px;
 margin-top: 10px;
@@ -92,9 +92,9 @@ padding: 0 8px 0 8px;
 float: right;
 }
 
-#search{
+.search{
 float: left;
 }
-#lucky{
+.lucky{
 float: right;
 }
