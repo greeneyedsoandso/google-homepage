@@ -48,6 +48,7 @@ table {
 /* begin actual new work */
 body{
   background-color: #ffffff;
+  position: relative;
 }
 .formcontainer{
   margin: 0 auto;
@@ -100,4 +101,11 @@ float: left;
 }
 .lucky{
 float: right;
+}
+
+.centercenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
