@@ -12,14 +12,16 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
+time, mark, audio, video, form {
+  color:  #fefefe;
+  margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+	border: 1px solid #bada55;
+	font: 100% sans-serif;
 	vertical-align: baseline;
 }
+/*font: font-style font-variant font-weight font-size/line-height font-family;
+You need to supply at least font-size and font-family for the shorthand to work, otherwise it'll just be a syntax error and do nothing.*/
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -46,33 +48,6 @@ table {
 /* begin actual new work */
 body{
   background-color: #ffffff;
-  font-family: sans-serif;
-  font-color: #fefefe
-}
-/* actually i need to make a container for textarea and the microphone and give the container all the border styles and let the textarea be invisible */
-#textbox{
-  border: 2px;
-  border-color: #f7f7f7;
-  border-radius: 2%;
-  border-style: ridge;
-  width: 428px;
-  height: 44px;
-  resize: none;
-  margin: 0;
-  padding: 0;
-}
-
-textarea{
-  margin: 0;
-  padding: 0;
-  border: none;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  width: 410px;
-  height: 42px;
-  resize: none;
-  float: left;
 }
 .formcontainer{
   margin: auto;
@@ -80,8 +55,32 @@ textarea{
   border: 1px solid green;
 }
 #google{
-
+ width: inherit;
 }
+textarea{
+  margin: 0;
+  padding: 0;
+  border: none;
+  vertical-align: baseline;
+  width: 410px;
+  height: 42px;
+  resize: none;
+  float: left;
+}
+#textbox{
+  border: 1px solid #bada55;
+/*  border-color: #f7f7f7; */
+  border-radius: 3px;
+  box-shadow: 0px 2px 2px 0px #bada55;
+/* in order: x offset, y offset, blur size, spread size, color */
+/* blur size and spread size are optional (they default to 0) */
+  width: 428px;
+  height: 44px;
+  resize: none;
+  margin: 0;
+  padding: 0;
+}
+
 #voice{
 width: 18px;
 height: 23px;
@@ -92,9 +91,10 @@ margin-right: 0;
 padding: 0;
 float: right;
 }
-#search{
 
+#search{
+float: left;
 }
 #lucky{
-
+float: right;
 }
