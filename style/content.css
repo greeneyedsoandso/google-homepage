@@ -57,7 +57,7 @@ body{
 .google{
  width: 272px;
  height: 92px;
- margin: 0 auto;
+ margin: 0 auto 24px auto;
  display: block;
 }
 .textarea{
@@ -95,26 +95,42 @@ margin-bottom: 10px;
 margin-right: 8;
 float: right;
 }
-button {
-  margin: 11px 4px 11px 4px;
-  padding: 0 16px 0 16px;
-  border: 1px solid;
-  background-color: lightgray;
-  height: 34px;
-  display: inline-block;
-}
-.search{
-  float: left;
-  transform: translate(100%, 0);
-}
-.lucky{
-  float: right;
-  transform: translate(-100%, 0);
-}
-
 .centercenter{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+button {
+  margin: 11px 6px 11px 6px;
+  padding: 0 16px 0 16px;
+  border: 1px solid;
+  border-color: #f5f5f5;
+  border-radius: 2px;
+  background-color: linear-gradient(#f5f5f5, #f1f1f1);
+  height: 34px;
+  display: inline;
+  font-size: 100%;
+  color: #808080;
+  font-weight: bold;
+}
+.button-left{
+  float: left;
+  background-color: #bada55;
+  height: 56px;
+  width: 50%;
+  display: inline-block;
+}
+.search{
+  float: right;
+}
+.button-right{
+  float: right;
+  background-color: pink;
+  height: 56px;
+  width: 50%;
+  display: inline-block;
+}
+.lucky{
+  float: left;
 }
