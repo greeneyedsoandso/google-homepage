@@ -98,11 +98,22 @@ display: inline-block;
 .inherit{
 float: inherit;
 }
-.view{
+
+.view {
 float: right;
+background: url('google-sprite.png');
+background-position-x: -132px;
+background-position-y: -38px;
+height: 32px;
+width: 32px;
 }
+
 .alert{
 float: right;
+background: url('');
+border-radius: 50%;
+height: 32px;
+width: 32px;
 }
 .head{
 float: right;
