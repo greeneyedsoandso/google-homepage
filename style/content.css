@@ -126,6 +126,11 @@ width: 20px;
 padding: 0, 2, 0, 2;
 margin: 11px 6px 0 6px;
 }
+.alert:hover {
+cursor: pointer;
+background-color: rgb(0,0,0);
+}
+
 .head{
 float: right;
 background: url('https://lh3.googleusercontent.com/-7iQTMHEhsAc/AAAAAAAAAAI/AAAAAAAAAAA/ACLGyWB9lJwqt5v8y2uwb3Rl3cwMccOvqg/s32-c-mo/photo.jpg');
@@ -134,6 +139,10 @@ height: 30px;
 width: 30px;
 margin: 5px 6px 0 6px;
 }
+.head:hover {
+cursor: pointer;
+}
+
 /* big utility sprite */ https://ssl.gstatic.com/gb/images/i1_1967ca6a.png
 /* my userhead */ https://lh3.googleusercontent.com/-7iQTMHEhsAc/AAAAAAAAAAI/AAAAAAAAAAA/ACLGyWB9lJwqt5v8y2uwb3Rl3cwMccOvqg/s32-c-mo/photo.jpg
 
