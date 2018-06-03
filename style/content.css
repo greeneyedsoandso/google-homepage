@@ -202,33 +202,35 @@ cursor: pointer;
 /* need to figure out the right positioning */
 .rollover{
 opacity: 0;
-background: red;
-top: 5px;
-/*right: 100%;*/
+color: white;
+font-size: inherit;
+top: 15px;
+left: 85%;
 display: inline-block;
 position: relative;
 }
+.rollover:hover{
+  opacity:inherit;
+  cursor: pointer;
+}
+
 #talkbubble {
    /*width: 120px;
    height: 80px;*/
-   background: red;
-   position: relative;
+   background: black;
 }
 #talkbubble::before {
    content:"";
    position: absolute;
-   right: 50%;
+   right:calc(50% - 5px);
    bottom: 100%;
    width: 0;
    height: 0;
-   border-left: 13px solid transparent;
-   border-bottom: 26px solid red;
-   border-right: 13px solid transparent;
+   border-left: 5px solid transparent;
+   border-bottom: 10px solid black;
+   border-right: 5px solid transparent;
 }
 
-.rollover:hover{
-opacity:inherit;
-}
 .centercenter{
   position: absolute;
   top: 50%;
